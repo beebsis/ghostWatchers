@@ -20,10 +20,6 @@ main {
     align-items: center;
 }
 
-footer {
-
-}
-
 html, body {
     height: 100vh;
     width: 100vw;
@@ -83,6 +79,38 @@ code {
     border-radius: 5px;
     color: rgb(23, 23, 23);
     padding: 5px;
+}
+
+#team-links {    
+    margin-top: 1rem;
+}
+
+.affiliate-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.affiliate-links a {
+    border-radius: 5px;
+    font-size: 2rem;
+    padding: 12px 36px;
+    color: black;
+    outline: none;
+    border: none;
+    transition: all 0.3s ease-in-out;
+    background: transparent;
+    color: white;
+}
+
+.affiliate-links a:hover {
+    cursor: pointer;
+    color:rgb(23, 23, 23);
+    background: linear-gradient(90deg, #845ec2 0%, #d65db1 20%, #ff6f91 40%, #ff9671 60%, #ffc75f 80%, #f9f871 100%);
 }
 
 .text-bold {
