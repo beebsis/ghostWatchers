@@ -30,6 +30,24 @@ html, body {
     font-family: 'Open Sans', sans-serif;
 }
 
+.introduction {
+    display: flex;
+    justify-content: space-around;
+}
+
+.community-quotes {
+    display: flex;
+    flex-direction: column;
+    max-width: 25%;
+    background-color:rgb(23, 23, 23);
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.community-user {
+    font-weight: bold;
+}
+
 .container {
     height: 100%;
     width: 100%;
@@ -200,11 +218,6 @@ footer {
 
 
 @media only screen and (max-width: 760px) {
-
-	body {
-		font-size: 16px;
-	}
-
     .wrapper {
         width: calc(100vw - 6rem);
     }
@@ -218,28 +231,75 @@ footer {
 
 @media only screen and (max-width: 450px) {
 
-	h1,h2,h3,h4 p, code, span, ul, li {
-		font-size: 16px !important;
-	}
-
     h1 {
-        font-size: 1.8rem;
-    }
-
-    h2 {
         font-size: 1.6rem;
     }
 
-    h3 {
+    h2 {
         font-size: 1.4rem;
     }
 
-    h4 {
+    h3 {
         font-size: 1.2rem;
+    }
+
+    h4 {
+        font-size: 0.8rem;
     }
 
     p, span, code, ul, li {
         font-size: 1rem;
+    }
+
+    header > h4 {
+        font-size: 0.8rem;
+    }
+
+    .prot-container {
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+    }
+    
+    .guide-info, .items, .catch-ghost, .voice-lines, .sentences {
+        line-height: 2rem;
+    }
+
+    code {
+        padding: 3px;
+    }
+
+    footer {
+        position: relative;
+        max-width: calc(100vw - 6rem);
+        margin: 0 auto;
+    }
+    summary {
+        font-size: 1.2rem;
+    }
+
+    details > div {
+        padding: 5px;
+    }
+    
+    ul, li, details, .sentences {
+        padding-left: 0;
+    }
+
+}
+
+@media only screen and (max-width: 380px) {
+
+    h1, h2, h3, h4 {
+        font-size: 1rem !important;
+    }
+
+    p, span, code, ul, li {
+        font-size: 0.8rem;
+    }
+
+    header > h4 {
+        font-size: 0.8rem;
     }
 
     .prot-container {
