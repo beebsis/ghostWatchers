@@ -93,6 +93,12 @@ code {
 
 a {
     text-decoration: none;
+    color: var(--secondary);
+    transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+    color:#d65db1
 }
 
 .affiliate-links a {
@@ -168,12 +174,25 @@ details {
     color: var(--secondary);
 }
 
+details:hover {
+    cursor: pointer;
+}
+
 details > div {
     padding-left: 4rem;
 }
 
 .item-info-div {
     background-color: var(--fourth);
+}
+
+footer {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    padding-bottom: 15px;
+
 }
 
 
@@ -232,6 +251,19 @@ details > div {
 
     code {
         padding: 3px;
+    }
+
+    footer {
+        position: relative;
+        max-width: calc(100vw - 6rem);
+        margin: 0 auto;
+    }
+    summary {
+        font-size: 1.2rem;
+    }
+
+    details > div {
+        padding: 5px;
     }
 
 }
