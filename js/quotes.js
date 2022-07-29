@@ -23,6 +23,30 @@ const quotes =
             {
                 name: "Rosendal_99",
                 quote: "I had to get some new diapers after this."
+            },
+            {
+                name: "Wholf",
+                quote: "You don't want papa wholf to be awoooo."
+            },
+            {
+                name: "Beebsis",
+                quote: "Insane Diff scammed me, I went bankrupt. :C"
+            },   
+            {
+                name: "FaTaLKaDe",
+                quote: "My ball skills are bad."
+            },
+            {
+                name: "Jayy",
+                quote: "the drowned does have a dump truck tbh"
+            },
+            {
+                name: "Nicu",
+                quote: "You need help? But my couch will be empty... and I would have to move..."
+            },
+            {
+                name: "Yameruh",
+                quote: "Us chasing the monke through the house to put him in the Pokeball."
             }
         ];
 
