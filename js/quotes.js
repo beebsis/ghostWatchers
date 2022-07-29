@@ -27,6 +27,10 @@ const quotes =
             {
                 name: "Wholf",
                 quote: "You don't want papa wholf to be awoooo."
+            },
+            {
+                name: "Beebsis",
+                quote: "Insane Diff scammed me, I went bankrupt. :C"
             }
         ];
 
