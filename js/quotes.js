@@ -39,6 +39,10 @@ const quotes =
             {
                 name: "Jayy",
                 quote: "the drowned does have a dump truck tbh"
+            },
+            {
+                name: "Nicu",
+                quote: "You need help? But my couch will be empty... and I would have to move..."
             }
         ];
 
