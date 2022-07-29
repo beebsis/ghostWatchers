@@ -28,14 +28,59 @@ html, body {
     background-color: var(--primary);
     overflow-x: hidden;
     font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
 }
 
 .introduction {
     display: flex;
-    justify-content: space-around;
-    margin-bottom: 20rem;
-    padding-top: 4rem;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+    align-items: center;
 }
+
+.introduction-info {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 12rem;
+    padding-top: 5rem;
+}
+
+.nav-buttons {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    gap: 15px;
+    width: 100%;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 12rem;
+}
+
+.btn {
+    padding: 22px 40px;
+    background: linear-gradient(90deg, #845ec2 0%, #d65db1 20%, #ff6f91 40%, #ff9671 60%, #ffc75f 80%, #f9f871 100%); 
+    border-radius: 5px;
+    color: rgb(23, 23, 23);
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    transition: all ease-in-out .2s;
+    font-weight: bold;
+    border: 2px solid transparent;
+}
+
+.btn:hover {
+    cursor: pointer;
+    border-radius: 15px;
+    border: 2px solid white;
+}
+
+.btn:focus {
+    border-radius: 15px;
+    border: 2px solid white;
+}
+
 
 .community-quotes {
     display: flex;
@@ -218,7 +263,7 @@ footer {
 }
 
 @media only screen and (max-width: 1450px) {
-    .introduction {
+    .introduction-info {
         flex-direction: column;
     }
     
@@ -291,9 +336,33 @@ footer {
         padding-left: 0;
     }
 
-    .introduction {
+    .introduction-info {
         margin-bottom: 4rem;
         padding-top: 0;
+    }
+
+    .nav-buttons {
+        display: flex;
+        flex-flow: column;
+        justify-content: space-evenly;
+        gap: 15px;
+        width: 100%;
+        align-content: center;
+        align-items: center;
+        margin-bottom: 6rem;
+    }
+
+    .btn {
+        padding: 11px 20px;
+        background: linear-gradient(90deg, #845ec2 0%, #d65db1 20%, #ff6f91 40%, #ff9671 60%, #ffc75f 80%, #f9f871 100%); 
+        border-radius: 5px;
+        color: rgb(23, 23, 23);
+        border: none;
+        outline: none;
+        font-size: 1rem;
+        transition: all ease-in-out .2s;
+        font-weight: bold;
+        border: 2px solid transparent;
     }
 
 }
