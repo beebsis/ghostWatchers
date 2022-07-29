@@ -31,6 +31,10 @@ const quotes =
             {
                 name: "Beebsis",
                 quote: "Insane Diff scammed me, I went bankrupt. :C"
+            },   
+            {
+                name: "FaTaLKaDe",
+                quote: "My ball skills are bad."
             }
         ];
 
