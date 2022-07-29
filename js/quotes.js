@@ -23,6 +23,10 @@ const quotes =
             {
                 name: "Rosendal_99",
                 quote: "I had to get some new diapers after this."
+            },
+            {
+                name: "Wholf",
+                quote: "You don't want papa wholf to be awoooo."
             }
         ];
 
