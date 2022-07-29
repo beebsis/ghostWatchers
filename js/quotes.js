@@ -43,6 +43,10 @@ const quotes =
             {
                 name: "Nicu",
                 quote: "You need help? But my couch will be empty... and I would have to move..."
+            },
+            {
+                name: "Yameruh",
+                quote: "Us chasing the monke through the house to put him in the Pokeball."
             }
         ];
 
