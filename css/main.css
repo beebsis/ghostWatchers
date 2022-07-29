@@ -71,12 +71,14 @@ html, body {
 }
 
 .btn:hover {
+    color: rgb(23, 23, 23);
     cursor: pointer;
     border-radius: 15px;
     border: 2px solid white;
 }
 
 .btn:focus {
+    color: rgb(23, 23, 23);
     border-radius: 15px;
     border: 2px solid white;
 }
