@@ -59,6 +59,10 @@ const quotes =
             {
                 name: "Leyla",
                 quote: "Nicu go back to the basement."
+            },
+            {
+                name: "Rey Winter",
+                quote: "Is it weird that I want to be able to kick the child ghost lol"
             }
         ];
 
