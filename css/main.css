@@ -51,6 +51,14 @@ html, body {
     font-size: 1.4rem;
 }
 
+.intro-info p {
+    margin-bottom: 2rem;
+}
+
+.intro-credits{
+    font-style: italic;
+}
+
 .nav-buttons {
     display: flex;
     flex-flow: row wrap;
@@ -147,10 +155,6 @@ li {
 
 .guide-info {
     line-height: 3rem;
-}
-
-.guide-info p {
-    margin-bottom: 2rem;
 }
 
 h1, 
