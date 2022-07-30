@@ -44,6 +44,7 @@ html, body {
     justify-content: space-around;
     margin-bottom: 12rem;
     padding-top: 5rem;
+    width: 100%;
 }
 
 .nav-buttons {
@@ -91,6 +92,7 @@ html, body {
     background-color:rgb(23, 23, 23);
     padding: 15px;
     border-radius: 15px;
+    height: 100%;
 }
 
 .community-user {
@@ -288,26 +290,6 @@ footer {
 
 @media only screen and (max-width: 450px) {
 
-    h1 {
-        font-size: 1.6rem;
-    }
-
-    h2 {
-        font-size: 1.4rem;
-    }
-
-    h3 {
-        font-size: 1.2rem;
-    }
-
-    h4 {
-        font-size: 0.8rem;
-    }
-
-    p, span, code, ul, li {
-        font-size: 1rem;
-    }
-
     header > h4 {
         font-size: 0.8rem;
     }
@@ -326,9 +308,6 @@ footer {
         padding: 3px;
     }
 
-    summary {
-        font-size: 1.2rem;
-    }
 
     details > div {
         padding: 5px;
@@ -371,13 +350,13 @@ footer {
 
 @media only screen and (max-width: 380px) {
 
-    h1, h2, h3, h4 {
+    /*h1, h2, h3, h4 {
         font-size: 1rem !important;
-    }
+    }*/
 
-    p, span, code, ul, li {
+    /*p, span, code, ul, li {
         font-size: 0.8rem;
-    }
+    }*/
 
     header > h4 {
         font-size: 0.8rem;
@@ -395,10 +374,6 @@ footer {
 
     code {
         padding: 3px;
-    }
-
-    summary {
-        font-size: 1.2rem;
     }
 
     details > div {

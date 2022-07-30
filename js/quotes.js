@@ -47,6 +47,14 @@ const quotes =
             {
                 name: "Yameruh",
                 quote: "Us chasing the monke through the house to put him in the Pokeball."
+            },
+            {
+                name: "Leyla",
+                quote: "No Nicu, I hate you that's it. I love everyone else."
+            },
+            {
+                name: "Yameruh",
+                quote: "Swiggity swooty, the darkness is coming for my booty."
             }
         ];
 
