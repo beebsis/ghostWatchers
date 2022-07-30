@@ -63,6 +63,10 @@ const quotes =
             {
                 name: "Rey Winter",
                 quote: "Is it weird that I want to be able to kick the child ghost lol"
+            },
+            {
+                name: "Twitch: fuwamaki",
+                quote: "Baby get in the box!"
             }
         ];
 
