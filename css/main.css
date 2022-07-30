@@ -47,6 +47,10 @@ html, body {
     width: 100%;
 }
 
+.intro-text p, .intro-text span, .intro-text ul, .intro-text li{
+    font-size: 1.4rem;
+}
+
 .nav-buttons {
     display: flex;
     flex-flow: row wrap;
@@ -89,10 +93,24 @@ html, body {
     display: flex;
     flex-direction: column;
     max-width: 25%;
-    background-color:rgb(23, 23, 23);
-    padding: 15px;
+    background: linear-gradient(90deg, #845ec2 0%, #d65db1 20%, #ff6f91 40%, #ff9671 60%, #ffc75f 80%, #f9f871 100%); 
+    padding: 5px;
     border-radius: 15px;
     height: 100%;
+}
+
+.community-quote-wrapper {
+    border-radius: 12px;
+    background-color: white;
+    color: white;
+    margin: 0 auto;
+    padding: 15px;
+    background-color:rgb(23, 23, 23);
+}
+
+#community-quote-top {
+    margin-bottom: 0;
+    font-weight: bold;
 }
 
 .community-user {
@@ -219,7 +237,7 @@ a:hover {
     margin-top: 2rem;
     text-align: center;
     background: var(--fourth);
-    max-width: 460px;
+    max-width: 320px;
     padding: 1rem;
     border-width: 5px;
     border-style: solid;
@@ -298,6 +316,10 @@ footer {
         flex-direction: column;
         align-content: center;
         align-items: center;
+    }
+
+    #team-links {
+        font-size: 1rem;
     }
     
     .guide-info, .items, .catch-ghost, .voice-lines, .sentences {
