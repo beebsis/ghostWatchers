@@ -55,6 +55,10 @@ const quotes =
             {
                 name: "Yameruh",
                 quote: "Swiggity swooty, the darkness is coming for my booty."
+            },
+            {
+                name: "Leyla",
+                quote: "Nicu go back to the basement."
             }
         ];
 
