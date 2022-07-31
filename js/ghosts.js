@@ -4,7 +4,7 @@ const ghosts =
                 name: "The Child",
                 img: "baby.png",
                 story:"April 26, 1986. The explosion at the Chernobyl nuclear power plant occured at the moment when engineer Vladimir Tyshlangov was coming out after work to meet his wife and daughter who were waiting for him. Sirens wailed alarmingly, clouds of smoke began to rise above the power unit. Dmitry ran into the guards room and took out a spare military-style gas mask. He quickly put it on his daughter. And at the same moment there was a second explosion. This time with such force that the roof of the station flew into the sky with a lot of fragments. Unfortunately, the engineers entire family died at the same moment. But the spirit of the daughter in a black military gas mask returns to the worl of the living, still hoping to find her parents.",
-                behavior: "Turns on/off light bulbs, likes to turn on water taps, interacts with doors and move objects in rooms."
+                behavior: "Turns on or off light bulbs, likes to turn on water taps, interacts with doors and move objects in rooms."
             },
             {
                 name: "The Darkness",
@@ -40,7 +40,7 @@ const ghosts =
                 name: "Poltergeist",
                 img: "poltergeist.png",
                 story: "On November 21, 2002, the most horrible death ever known to mankind occurred. Bartender Doyle Hatfield had an argument with one of the bar patrons. In the heat of alcohol, the client attacked the bartender, threw him out into the street, broke both his legs and threw him into a manhole, the distance to the day was a little more than 5 meters. The bottom of the sewer was flooded with boiling water. Dovle could not get out of this terrible trap because of the injuries that were inflicted on him. He was still conscious when the ambulance crew arrived at the scene, but no one dared to go down. During the autopsy, the pathologist was shocked, the skin came off the bones, and the internal organs literally boiled in the body of a young guy. His soul cannot feel peace, he is still angry",
-                behavior: "Sometimes turns on and off light bulbs in rooms, likes to turn on the water taps, operns the doors, throws various objects."
+                behavior: "Sometimes turns on and off light bulbs in rooms, likes to turn on the water taps, opens the doors, throws various objects."
             },
             {
                 name: "Vampire",
