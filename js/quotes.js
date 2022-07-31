@@ -71,6 +71,10 @@ const quotes =
             {
                 name: "Twitch: fuwamaki",
                 quote: "I want to add a baby to our collection!"
+            },
+            {
+                name: "Twitch: maetsukitsune",
+                quote: "AAAH! I'm now pissing and crying T.T!"
             }
         ];
 
