@@ -284,6 +284,39 @@ details > div {
     padding: 15px;
 }
 
+.ghosts {
+    width: 100%;
+}
+
+.ghost {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-content: center;
+    background-color:rgb(23, 23, 23);
+    padding: 15px;
+    border-radius: 15px;
+    
+}
+
+.ghost img {
+    max-width:360px;
+    max-height:360px;
+    height: auto;
+    width: auto;
+}
+
+.ghost-info {
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.ghost-info h3 {
+    padding-bottom: 15px;
+}
+
 footer {
     text-align: center;
     width: 100vw;
@@ -300,6 +333,12 @@ footer {
     .community-quotes {
         max-width: 100%;
     }
+
+    .ghost {
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+    }
 }
 
 @media only screen and (max-width: 760px) {
@@ -308,6 +347,12 @@ footer {
     }
 
     .prot-container {
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+    }
+    
+    .ghost {
         flex-direction: column;
         align-content: center;
         align-items: center;
@@ -375,7 +420,13 @@ footer {
         font-weight: bold;
         border: 2px solid transparent;
     }
+    .ghost {
+        flex-direction: column;
+    }
 
+    .ghost img {
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 380px) {
