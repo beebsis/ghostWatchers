@@ -41,13 +41,13 @@ html, body {
 
 .alert {
     font-weight: bold;
-    background: linear-gradient(90deg, #845ec2 0%, #d65db1 20%, #ff6f91 40%, #ff9671 60%, #ffc75f 80%, #f9f871 100%); 
+    background: #f1c40f; 
     border-radius: 5px;
     padding: 15px;
 }
 
-.alert p {
-    color:rgb(23, 23, 23);
+.alert p, .alert span {
+color: rgb(23, 23, 23);
 }
 
 .introduction-info {
