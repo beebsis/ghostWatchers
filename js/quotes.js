@@ -71,7 +71,15 @@ const quotes =
             {
                 name: "Twitch: fuwamaki",
                 quote: "I want to add a baby to our collection!"
-            }
+            },
+            {
+                name: "Twitch: maetsukitsune",
+                quote: "AAAH! I'm now pissing and crying T.T!"
+            },
+             {
+                name: "Yameruhe",
+                quote: "I got my head dunked in the trashcan yesterday, never a sink tho."
+            },
         ];
 
 function randomMessage() {
