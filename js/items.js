@@ -181,39 +181,43 @@ userQuote = document.createTextNode(randomQuote.quote);
 spanName.appendChild(userName);
 spanQuote.appendChild(userQuote);
 */
-const itemList = document.getElementsByClassName("item-list");
-console.log(itemList);
+function createItem() {
+    const itemList = document.getElementsByClassName("item-list");
+    console.log(itemList);
 
-for (let i = 0; i < items.length; i++) {
+    for (let i = 0; i < items.length; i++) {
 
-    const details = document.createElement("details");
-    const summary = document.createElement("summary");
-    const div = document.createElement("div");
-    const spacer = document.createElement("div");
-    
-    const itemSpan1 = document.createElement("span");
-    const itemSpan2 = document.createElement("span");
-    const itemUse = document.createElement("p");
-    const itemDesc = document.createElement("p");
+        const details = document.createElement("details");
+        const summary = document.createElement("summary");
+        const div = document.createElement("div");
+        const spacer = document.createElement("div");
+        
+        const itemSpan1 = document.createElement("span");
+        const itemSpan2 = document.createElement("span");
+        const itemUse = document.createElement("p");
+        const itemDesc = document.createElement("p");
 
-    //Prints item name of index into summary
-    summary.innerHTML = items[i].name;
-    itemSpan1.innerHTML = "USE: ";
-    itemSpan2.innerHTML = "DESCRIPTION: ";
-    itemUse.innerHTML = items[i].use;
-    itemDesc.innerHTML = items[i].description;
+        //Prints item name of index into summary
+        summary.innerHTML = items[i].name;
+        itemSpan1.innerHTML = "USE: ";
+        itemSpan2.innerHTML = "DESCRIPTION: ";
+        itemUse.innerHTML = items[i].use;
+        itemDesc.innerHTML = items[i].description;
 
-    div.classList.add("item-info-div");
-    spacer.classList.add("spacer");
-    
-    itemList[0].appendChild(details);
-    details.appendChild(summary);
-    details.appendChild(div);
-    div.appendChild(itemSpan1);
-    div.appendChild(itemUse);
-    div.appendChild(spacer);
-    div.appendChild(itemSpan2);
-    div.appendChild(itemDesc);
+        div.classList.add("item-info-div");
+        spacer.classList.add("spacer");
+        
+        itemList[0].appendChild(details);
+        details.appendChild(summary);
+        details.appendChild(div);
+        div.appendChild(itemSpan1);
+        div.appendChild(itemUse);
+        div.appendChild(spacer);
+        div.appendChild(itemSpan2);
+        div.appendChild(itemDesc);
+    }
+
 }
 
+createItem();
 console.log(items);

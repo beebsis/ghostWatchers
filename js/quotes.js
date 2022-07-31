@@ -74,13 +74,16 @@ const quotes =
             }
         ];
 
-const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
-const spanName = document.getElementById("community-user");
-const spanQuote = document.getElementById("community-message");
-userName = document.createTextNode(randomQuote.name);
-userQuote = document.createTextNode(randomQuote.quote);
-spanName.appendChild(userName);
-spanQuote.appendChild(userQuote);
+function randomMessage() {
+    const randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
+    const spanName = document.getElementById("community-user");
+    const spanQuote = document.getElementById("community-message");
+    userName = document.createTextNode(randomQuote.name);
+    userQuote = document.createTextNode(randomQuote.quote);
+    spanName.appendChild(userName);
+    spanQuote.appendChild(userQuote);
+}
 
+randomMessage();
 
-console.log(randomQuote);
+console.log(randomMessage);
