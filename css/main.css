@@ -259,6 +259,12 @@ a:hover {
     border-image: linear-gradient(to bottom,  #845ec2 0%, #d65db1 20%, #ff6f91 40%, #ff9671 60%, #ffc75f 80%, #f9f871 100%) 1 100%;
     width: 100%;
 }
+.prot-container div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .prot-type h4 {
     margin-bottom: .5rem;
 }
