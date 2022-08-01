@@ -79,14 +79,6 @@ const quotes =
             {
                 name: "Yameruhe",
                 quote: "I got my head dunked in the trashcan yesterday, never a sink tho."
-            },
-            {
-                name: "Leyla",
-                qoute: "<img src='../images/leyla1.png' />"
-            },
-            {
-                name: "Leyla",
-                qoute: "<img src='../images/leyla2.png' />"
             }
         ];
 
