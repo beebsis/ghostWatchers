@@ -8,7 +8,7 @@ const items =
             {
                 name: "Plasma Absorber",
                 use: "You place it on the ground and it'll weaken or repel the ghost if it's close enough when it's active. This does recharge so be warry when it's charged and not.",
-                description: "A device that can weaken a ghost. If you made a few mistakes when catching a ghost and seriously angered him, then just use a plasma absorber, it is able to drive away the spirit for a while. This device has a fairly long radius and it's recommended to place around the center of the room. Everyone should still be using other handheld protectives meanwhile within it's range for a higher chance of surviving a hunt."
+                description: "A device that can weaken a ghost. If you made a few mistakes when catching a ghost and seriously angered him, then just use a plasma absorber, it is able to drive away the spirit for a while. This device has a fairly long radius and it's recommended to place around the center of the room. Everyone should still be using other handheld protectives meanwhile within it's range for a higher chance of surviving a hunt. It has 3 charges on all difficulties."
             },
             {
                 name: "Danger Detector",
@@ -18,7 +18,7 @@ const items =
             {
                 name: "Withering Light",
                 use: "You place it on the ground and it'll weaken or repel the ghost if it's close enough when it's active. This does recharge so be warry when it's charged and not.",
-                description: "An incredibly strong source of light that can scare away a ghost for a long enough peroid of time, but be careful while using it, do not blind your teammates."
+                description: "An incredibly strong source of light that can scare away a ghost for a long enough peroid of time, but be careful while using it, do not blind your teammates. It has 3 charges on all difficulties."
             },
             {
                 name: "Holy Salt",

@@ -76,10 +76,18 @@ const quotes =
                 name: "Twitch: maetsukitsune",
                 quote: "AAAH! I'm now pissing and crying T.T!"
             },
-             {
+            {
                 name: "Yameruhe",
                 quote: "I got my head dunked in the trashcan yesterday, never a sink tho."
             },
+            {
+                name: "Leyla",
+                qoute: "<img src='../images/leyla1.png' />"
+            },
+            {
+                name: "Leyla",
+                qoute: "<img src='../images/leyla2.png' />"
+            }
         ];
 
 function randomMessage() {
@@ -90,8 +98,8 @@ function randomMessage() {
     userQuote = document.createTextNode(randomQuote.quote);
     spanName.appendChild(userName);
     spanQuote.appendChild(userQuote);
+    console.log(randomQuote);
 }
 
 randomMessage();
 
-console.log(randomMessage);
