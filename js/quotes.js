@@ -79,6 +79,14 @@ const quotes =
             {
                 name: "Yameruhe",
                 quote: "I got my head dunked in the trashcan yesterday, never a sink tho."
+            },
+            {
+                name: "Twitch: kyampo",
+                quote: "Bleh bleh ble bleeeh wtf whatever"
+            },
+            {
+                name: "Twitch: kyampo",
+                quote: "I'm just watching my man the hangman."
             }
         ];
 
